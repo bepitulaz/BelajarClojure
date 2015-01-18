@@ -55,7 +55,7 @@ penjelasannya adalah `+` adalah fungsi yang akan menjumlahkan argumen angka `3`,
 
 Saat kita menulis kode, kita akan mencoba membuatnya sejelas mungkin agar pada saat orang lain membaca kode kita atau pada saat kita membaca kembali kode lama yang pernah kita tulis, kita akan langsung tau maksud dari kode tersebut. Salah satu cara untuk menjelaskan sebuah kode adalah dengan memberi komentar.
 
-Komentar pada Clojure diawali dengan menggunakan titik koma `;`. Apa pun yang ditulis dengan diawali `;` akan diacuhkan oleh komputer (tidak dieksekusi). Hanya dibutuhkan satu tanda `;` untuk membuat komentar, tapi ada juga programmer yang menulis dengan `;;`. Itu cuma masalah gaya penulisan.
+Komentar pada Clojure diawali dengan menggunakan titik koma `;`. Apa pun yang ditulis dengan diawali `;` tidak akan dieksekusi oleh komputer. Hanya dibutuhkan satu tanda `;` untuk membuat komentar, tapi ada juga programmer yang menulis dengan `;;`. Itu cuma masalah gaya penulisan.
 
 ```clojure
 ;; teknik makan pecel

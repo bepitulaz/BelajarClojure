@@ -6,6 +6,7 @@ Daftar Isi
 ----------
 
 * [Perkenalan Pemrograman Menggunakan Clojure](kurikulum/1-Perkenalan.md)
+* [Struktur Data _Collection_ - Vector](kurikulam/2-Data-Struktur.md)
 
 _belum selesai, silahkan `fork` dan `pull request` untuk membantu mempercepat proses menterjemahkan_
 
