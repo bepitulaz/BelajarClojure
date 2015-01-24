@@ -8,6 +8,8 @@ Daftar Isi
 * [Perkenalan Pemrograman Menggunakan Clojure](kurikulum/1-Perkenalan.md)
 * [Struktur Data _Collection_ - Vector](kurikulum/2-Data-Struktur.md)
 * [Fungsi](kurikulum/3-Fungsi.md)
+* [Lebih Lanjut dengan Tipe Data Sederhana](kurikulum/4-Tipe-Data-Sederhana-2.md)
+* [Lebih Lanjut dengan Fungsi](kurikulum/5-Fungsi-2.md)
 
 _belum selesai, silahkan `fork` dan `pull request` untuk membantu mempercepat proses menterjemahkan_
 
