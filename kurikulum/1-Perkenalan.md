@@ -13,9 +13,10 @@ Perkenalan Pemrograman Menggunakan Clojure
 Jika Anda tidak pernah memprogram sebelumnya, Anda mungkin tidak tahu jika ada banyak bahasa pemrograman untuk dipilih. Beberapa bahasa pemrograman yang mungkin pernah Anda dengar atau akan dengar diantaranya C, Javascript, Python, PHP, dan Java.
 
 Lalu mengapa kami mengajarkan Clojure? Bahasa yang tidak sepopuler bahasa-bahasa di atas (terutama di Indonesia). Kami menggunakan Clojure karena 3 kualitas yang bahasa ini miliki, sehingga membuatnya ideal untuk bahasa pemrograman pertama untuk dipelajari, dan juga sesuai untuk dipelajari oleh orang-orang yang sudah melakukan pemrograman menggunakan bahasa-bahasa pemrograman lain yang lebih populer:
+
 * Clojure itu _mudah_. Bukan berarti tidak bagus. Konsep-konsep yang harus diketahui saat memprogram dengan Clojure sangat sedikit dan mudah dipahami. Pemahaman Anda akan Clojure akan semakin tumbuh, saat semakin sering menggunakannya, dan Anda pun tetap bisa lebih produktif dengan menggunakan sebagian kecil saja dari bahasa ini.
 * Clojure bisa _digunakan untuk kebutuhan apa pun_. Beberapa bahasa memiliki kegunaan yang spesifik. Javascript, sebagai contoh, dulunya hanya digunakan pada halaman web (walaupun sekarang sudah banyak berubah). PHP hanya bisa digunakan untuk pembuatan aplikasi berbasis web. Sedangkan Clojure bisa digunakan untuk kebutuhan apa pun.
-* Clojure itu _menyenangkan_. Ini mungkin hanya pendapat kami, tapi kami rasa ini benar.
+* Clojure itu _menyenangkan_. Ini mungkin hanya pendapat subyektif kami, tapi kami rasa ini benar.
 
 ## Clojure bagusnya untuk apa?
 
@@ -37,7 +38,7 @@ Di bawah ini contoh beberapa bentuk baris kode Clojure:
 (makan "pecel")
 ```
 
-Tanda kurung `()` mungkin hal pertama yang langsung terlihat. Tanda kurung digunakan untuk menandai setiap instruksi untuk komputer pada bahasa Clojure. Setiap saat Anda melihat tanda kurung buka `(`, hal berikutnya yang akan Anda lihat adalah instruksi kepada komputer untuk melakukan sesuatu. Instruksi tersebut normalnya kita sebut _fungsi_. Fungsi digunakan untuk melakukan semua hal pada bahasa Clojure. Fungsi akan mengambil _argumen_--yang ada di sebelah kanan setelah nama fungsi dan masih ada di dalam tanda kurung--dan akan mengembalikan nilai baru. Untuk lebih jelas perhatikan kode di bawah ini:
+Tanda kurung `()` mungkin hal pertama yang langsung terlihat. Tanda kurung digunakan untuk menandai setiap ekspresi untuk komputer pada bahasa Clojure. Setiap saat Anda melihat tanda kurung buka `(`, hal berikutnya yang akan Anda lihat adalah ekspresi kepada komputer untuk melakukan sesuatu. Ekspresi tersebut normalnya kita sebut _fungsi_. Fungsi digunakan untuk melakukan semua hal pada bahasa Clojure. Fungsi akan mengambil _argumen_--yang ada di sebelah kanan setelah nama fungsi dan masih ada di dalam tanda kurung--dan akan mengembalikan nilai baru. Untuk lebih jelas perhatikan kode di bawah ini:
 
 ```clojure
 (makan "pecel" 2)
@@ -64,7 +65,7 @@ Komentar pada Clojure diawali dengan menggunakan titik koma `;`. Apa pun yang di
 
 ## Apa itu REPL?
 
-"REPL" adalah singkatan dari "Read-Eval-Print-Loop". Banyak bahasa pemrograman, termasuk Clojure, memiliki fasilitas ini yang sangat memudahkan programmer dalam melakukan pengembangan aplikasi. Programmer dapat mengetik kode untuk dicoba-coba dan akan langsung mendapatkan hasil operasinya secara instan melalui terminal (konsol), sebelum mengetiknya langsung di kode sumber yang akan digunakan di dalam aplikasi. Kami akan jelaskan lebih lanjut nanti.
+"REPL" adalah singkatan dari "Read-Eval-Print-Loop". Beberapa bahasa pemrograman, termasuk Clojure, memiliki fasilitas ini yang sangat memudahkan programmer dalam melakukan pengembangan aplikasi. Programmer dapat mengetik kode untuk dicoba-coba dan akan langsung mendapatkan hasil operasinya secara instan melalui terminal (konsol), sebelum mengetiknya langsung di kode sumber yang akan digunakan di dalam aplikasi. Kami akan jelaskan lebih lanjut nanti.
 
 ## Tipe data sederhana
 
