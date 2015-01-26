@@ -91,8 +91,8 @@ Anda seharusnya menggunakan bentuk spesial, yaitu `let`. Mari kita lihat contohn
 	"Menyatukan pemasukan Anda bersama pasangan yang Anda cintai."
 	[asset-anda asset-pasangan]
 	(let [pemasukan-anda (:pemasukan asset-anda)
-        pemasukan-pasangan (:pemasukan asset-pasangan)
-        total-pemasukan (+ pemasukan-anda pemasukan-pasangan)]
+          pemasukan-pasangan (:pemasukan asset-pasangan)
+          total-pemasukan (+ pemasukan-anda pemasukan-pasangan)]
 		(assoc {} :pemasukan-bersama total-pemasukan)))
 
 ; eksekusi fungsi di atas
