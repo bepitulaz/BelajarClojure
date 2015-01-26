@@ -57,9 +57,9 @@ Beberapa fungsi yang sangat penting  untuk digunakan bersama _collection_ dapat 
 
 ### Fungsi _anonymous_
 
-Sejauh ini, semua fungsi yang kita lihat pasti memiliki nama, seperti `+`, `str`, dan `reduce`. Bagaimanapun, fungsi tidak selalu butuh nama, sama seperti nilai yang tidak selalu perlu nama (_symbol_).
+Sejauh ini, semua fungsi yang kita lihat pasti memiliki nama, seperti `+`, `str`, dan `reduce`. Akan tetapi, fungsi tidak selalu memerlukan nama. Sama seperti nilai, tidak selalu harus di-_binding_ ke dalam sebuah _**symbol**_
 
-Sebelum kita lebih jauh lagi, Anda sebaiknya paham jika Anda bisa menamai fungsi buatan Anda dengan nama apa pun. Tidak ada yang salah dengan hal tersebut. Bagaimanapun, Anda nanti akan banyak menjumpai kode Clojure yang tidak memiliki nama (_anonymous_), maka Anda harus bisa memahaminya.
+Fungsi dapat dinamai dengan nama **apapun**. Tidak ada yang salah dengan hal tersebut. Anda nanti akan banyak menjumpai kode Clojure yang tidak memiliki nama (_anonymous_), jadi mari kita pahami terlebih dahulu tentang fungsi tak bernama ini.
 
 Sebuah fungsi _anonymous_ dibuat dengan menggunakan `fn`, seperti:
 
@@ -67,7 +67,7 @@ Sebuah fungsi _anonymous_ dibuat dengan menggunakan `fn`, seperti:
 (fn [string1 string2] (str string1 " " string2))
 ```
 
-Anda mungkin menyadari bahwa fungsi _anonymous_ memiliki bentuk yang sama seperti pada fungsi yang dibuat dengan `defn`; kita tetap punya argumen yang disusun sebagai _vector_ dan sebuah isi dari fungsi.
+Fungsi _anonymous_ memiliki bentuk yang sama seperti pada fungsi yang dibuat dengan `defn`; kita tetap punya argumen yang disusun sebagai _vector_ dan sebuah isi dari fungsi.
 
 Fungsi _anonymous_ akan sangat berguna saat kita berurusan dengan fungsi yang menggunakan fungsi lain sebagai argumennya. Mari kita lihat beberapa contohnya:
 
