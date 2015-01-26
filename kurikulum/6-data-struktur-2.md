@@ -78,4 +78,47 @@ Mari kita melihat beberapa fungsi yang bisa kita gunakan bersama _map_. Kita tid
 
 Lalu kita punya `keys` dan `vals`, yang fungsinya sangat sederhana: mengembalikan _keys_ dan _value_ dalam _map_. Urutannya tidak bisa dijamin, kita bisa saja mendapat `(:firstname :lastname)` atau `(:lastname :firstname)`.
 
-Mari kita lihat satu lagi tentang _map_ sebelum melanjutkan ke materi selanjutnya.
+Mari kita lihat satu lagi tentang _map_ sebelum melanjutkan ke materi selanjutnya. Anda bisa menggunakan `get` untuk mendapat _value_ dari _map_, tapi Anda akan sering melihat sesuatu seperti ini:
+
+```clojure
+(:firstname {:firstname "Asep" :city "Jakarta Selatan"})
+;=> "Asep"
+
+(:city {:firstname "Asep" :city "Jakarta Selatan"})
+;=> "Jakarta Selatan"
+
+(:lastname {:firstname "Asep" :city "Jakarta Selatan"} :MISS)
+;=> :MISS
+```
+
+Anda bisa menggunakan _keyword_ dengan cara yang sama seperti menggunakan fungsi untuk mencari _value_ dari dalam _map_. Silahkan Anda pilih antara menggunakan `get` atau _keyword_ di dalam kode Anda sendiri.
+
+## _Collection of collection_
+
+Tipe data sederhana seperti _number_, _keyword_, dan _string_ bukan satu-satunya tipe data yang bisa dimasukkan ke dalam _collection_. Anda juga bisa memasukkan _collection_ ke dalam _collection_ baru, sehingga Anda bisa memiliki _vector_ di dalam _map_, atau sekumpulan _map_, atau kombinasi data apa pun yang sesuai dengan kebutuhan Anda.
+
+_Vector_ yang berisi _map_
+
+```clojure
+(def teman [{:name "Asep"} {:name "Didit"}])
+
+(last teman)
+;=> {:name "Didit"}
+```
+
+_Map_ yang berisi _map_
+
+```clojure
+(def keluarga {:sepupu {:nama "Budi" :kota "Jakarta Selatan"}
+							 :kakak {:nama "Deni" :kota "Yogyakarta"}
+							 :adik {:nama "Tina" :kota "Bandung"}})
+
+(get keluarga :adik)
+;=> {:nama "Tina" :kota "Bandung"}
+
+(:kakak keluarga)
+;=> {:nama "Deni" :kota "Yogyakarta"}
+
+(:kota (:sepupu keluarga))
+;=> "Jakarta Selatan"
+```
