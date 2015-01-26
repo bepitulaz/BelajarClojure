@@ -76,8 +76,8 @@ Lihat tabel kebenaran di bawah ini:
 	tapi benar untuk tahun yang bisa dibagi oleh 400."
 	[tahun]
 	(and (zero? (mod tahun 4))
-			 (or (zero? (mod tahun 400))
-			 		 (not (zero? (mod tahun 100))))))
+       (or (zero? (mod tahun 400))
+	         (not (zero? (mod tahun 100))))))
 ```
 
 ## `let`
@@ -91,13 +91,13 @@ Anda seharusnya menggunakan bentuk spesial, yaitu `let`. Mari kita lihat contohn
 	"Menyatukan pemasukan Anda bersama pasangan yang Anda cintai."
 	[asset-anda asset-pasangan]
 	(let [pemasukan-anda (:pemasukan asset-anda)
-				pemasukan-pasangan (:pemasukan asset-pasangan)
-				total-pemasukan (+ pemasukan-anda pemasukan-pasangan)]
+        pemasukan-pasangan (:pemasukan asset-pasangan)
+        total-pemasukan (+ pemasukan-anda pemasukan-pasangan)]
 		(assoc {} :pemasukan-bersama total-pemasukan)))
 
 ; eksekusi fungsi di atas
 (pemasukan-setelah-menikah {:pemasukan 5000000 :asset ["rumah"]} 
-													 {:pemasukan 4500000 :asset ["mobil" "motor"]})
+                           {:pemasukan 4500000 :asset ["mobil" "motor"]})
 ;=> {:pemasukan-bersama 9500000}
 ```
 
