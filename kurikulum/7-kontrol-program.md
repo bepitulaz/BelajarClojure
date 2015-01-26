@@ -25,6 +25,7 @@ Bentuk umum dari operator `if` adalah:
 (if kondisi-yang-akan-dicek
 	ekspresi-yang-dijalankan-jika-true
   ekspresi-yang-dijalankan-jika-false)
+```
 
 Saat mengecek kebenaran sebuah ekspresi, Clojure mempertimbangkan `nil` dan `false` menjadi salah dan selain itu sebagai benar. Ini beberapa contohnya:
 
@@ -71,7 +72,8 @@ Lihat tabel kebenaran di bawah ini:
 
 ```clojure
 (defn tahun-kabisat?
-	"Setiap 4 tahun, kecuali tahun yang bisa dibagi 100, tapi benar untuk tahun yang bisa dibagi oleh 400."
+	"Setiap 4 tahun, kecuali tahun yang bisa dibagi 100, 
+	tapi benar untuk tahun yang bisa dibagi oleh 400."
 	[tahun]
 	(and (zero? (mod tahun 4))
 			 (or (zero? (mod tahun 400))
