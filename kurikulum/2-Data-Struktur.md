@@ -1,5 +1,5 @@
-Struktur Data
-=============
+Struktur Data _Collection_
+==========================
 
 * Collection
     * Vector

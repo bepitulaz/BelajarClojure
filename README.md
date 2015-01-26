@@ -10,6 +10,7 @@ Daftar Isi
 * [Fungsi](kurikulum/3-Fungsi.md)
 * [Lebih Lanjut dengan Tipe Data Sederhana](kurikulum/4-Tipe-Data-Sederhana-2.md)
 * [Lebih Lanjut dengan Fungsi](kurikulum/5-Fungsi-2.md)
+* [Lebih Lanjut dengan Struktur Data _Collection_ - Map](kurikulum/6-data-struktur-2.md) 
 
 _belum selesai, silahkan `fork` dan `pull request` untuk membantu mempercepat proses menterjemahkan_
 
