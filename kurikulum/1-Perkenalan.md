@@ -24,7 +24,7 @@ Tadi kami bilang Clojure bisa digunakan untuk kebutuhan apa pun, tapi itu bukan 
 
 Clojure dikenal bagus untuk melakukan pemrosesan data, karena Clojure memiliki struktur data yang tepat untuk melakukan itu. Clojure memiliki beberapa cara yang sangat bagus untuk menampilkan data, dan struktur datanya mudah digunakan.
 
-Clojure dikenal akan konkurensinya. Ini bisa diilustrasikan ketika membangun rumah. Misal kita menyewa 4 tukang, tentunya kita memerlukan mereka untuk bekerja secara paralel  menurut bagiannya masing-masing, bukan satu tukang mengerjakan, sementara yang lain nganggur menunggu. Walaupun begitu, ada masanya mereka mereka harus berkoordinasi. Di bahasa lain, menulis cara mereka berkoordinasi adalah sangat kompleks, di Clojure, mengatur bagaimana tukang-tukang itu bekerja lebih mudah.
+Clojure dikenal akan konkurensinya. Ini bisa diilustrasikan ketika membangun rumah. Misal kita menyewa 4 tukang, tentunya kita memerlukan mereka untuk bekerja secara paralel  menurut bagiannya masing-masing, bukan satu tukang mengerjakan, sementara yang lain nganggur menunggu. Walaupun begitu, ada masanya mereka harus berkoordinasi. Di bahasa lain, menulis cara mereka berkoordinasi adalah sangat kompleks, di Clojure, mengatur bagaimana tukang-tukang itu bekerja lebih mudah.
 
 Clojure juga sesuai untuk digunakan membangun aplikasi berbasis web. Seperti yang akan kita lakukan bersama-sama.
 
